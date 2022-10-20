@@ -5,4 +5,4 @@ export const Separator = styled.hr`
     height: 2px;
     background-color: #666;
     margin: 20px 10px;
-`
+`;
