@@ -1,10 +1,12 @@
 {
-  "name": "youtube-challenge-ui-kit",
+  "name": "@andreknob/storybook-ui-kit",
   "version": "1.0.0",
+  "author": "André Knob",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 8080"
+    "storybook": "start-storybook -p 8080",
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@storybook/addon-centered": "~5.3.21",
